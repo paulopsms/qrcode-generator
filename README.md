@@ -26,7 +26,7 @@ For this project to run, you'll need to have Docker and docker-compose installed
 
 - [Docker](https://docs.docker.com/engine/install)
 - [Docker Compose](https://docs.docker.com/compose/install)
-- Amazon S3 Bucket repository
+- [Amazon S3 Bucket repository](https://aws.amazon.com/pt/s3/)
 
 <h3>Cloning</h3>
 

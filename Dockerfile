@@ -9,10 +9,10 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
-ARG AWS_ACCESS_KEY_ID
-ARG AWS_SECRET_ACCESS_KEY
+#ARG AWS_ACCESS_KEY_ID
+#ARG AWS_SECRET_ACCESS_KEY
 
-ENV AWS_REGION=us-east-1
-ENV AWS_BUGCKET_NAME=paulopsms-qrcode-storage
+#ENV AWS_REGION=us-east-1
+#ENV AWS_BUCKET_NAME=paulopsms-qrcode-storage
 
 ENTRYPOINT ["java", "-jar", "app.jar"]

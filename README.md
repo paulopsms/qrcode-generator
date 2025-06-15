@@ -54,7 +54,7 @@ How to start your project.
 Inside of your project folder, execute in your terminal:
 
 ```bash
-docker comopose up -d --build
+docker compose up -d --build
 ``````
 
 <h2 id="routes">📍 API Endpoints</h2>
@@ -63,9 +63,9 @@ Here you can list the main routes of your API, and what are their expected reque
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>POST /qrcode/generate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
+| <kbd>POST /qrcode/generate</kbd>     | Create a QR Code based on text sent. See [request details](#post-qrcode-detail)
 
-<h3 id="post-auth-detail">POST /qrcode/generate</h3>
+<h3 id="post-qrcode-detail">POST /qrcode/generate</h3>
 
 **REQUEST**
 ```json

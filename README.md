@@ -18,8 +18,6 @@
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
-
 <h3>Prerequisites</h3>
 
 For this project to run, you'll need to have Docker and docker-compose installed.
